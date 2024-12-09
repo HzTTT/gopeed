@@ -1,5 +1,7 @@
 module github.com/GopeedLab/gopeed
 
+replace github.com/GopeedLab/gopeed => github.com/HzTTT/gopeed v0.0.0-20241208040708-f4876c8a0e6b
+
 go 1.23.0
 
 toolchain go1.23.1
