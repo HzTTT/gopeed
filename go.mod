@@ -1,12 +1,13 @@
-module github.com/GopeedLab/gopeed
+module github.com/HzTTT/gopeed
 
-replace github.com/GopeedLab/gopeed => github.com/HzTTT/gopeed v0.0.0-20241208040708-f4876c8a0e6b
+replace github.com/HzTTT/gopeed => github.com/GopeedLab/gopeed v1.6.4-0.20241208040708-f4876c8a0e6b
 
 go 1.23.0
 
 toolchain go1.23.1
 
 require (
+	github.com/GopeedLab/gopeed v1.6.3
 	github.com/anacrolix/missinggo/v2 v2.8.0
 	github.com/anacrolix/torrent v1.57.2-0.20241017235801-4d8437a05621
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
